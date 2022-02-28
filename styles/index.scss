@@ -1,0 +1,30 @@
+@import 'fonts';
+@import 'header';
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.text-container {
+    min-height: 198px;
+    max-width: 574px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.picture-container {
+    position: absolute;
+    bottom: 0; 
+}
