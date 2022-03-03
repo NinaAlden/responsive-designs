@@ -16,6 +16,12 @@ h2 {
     letter-spacing: -0.25px;
     color: #FFFFFF;
 }
+.fa {
+    color: #242635;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
 .nav-appearance {
     text-decoration-line:none;
     padding: 29px;
@@ -26,7 +32,7 @@ h2 {
     line-height: 22px;
     color: #FFFFFF;
     &:hover {
-        color: rgb(129, 129, 129);
+        text-decoration: underline;
     }
 }
 .body-text {
