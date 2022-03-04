@@ -1,0 +1,46 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .overlay {
+       position: fixed;
+       top: 0;
+       bottom: 0;
+       height: 100%;
+       width: 0;
+       z-index: 1;
+       overflow: hidden;
+       background-color: rgba(0, 0, 0, 0.877);
+   }
+   .overlay-menu {
+       max-width: 320px;
+       display: flex;
+       flex-direction: column;
+       align-content: flex-end;
+   }
+   .closebtn {
+    max-width: 42px;
+    max-height: 42px;
+    width: 100%;
+    border: none;
+    border-radius: 50%;
+    margin-top: 5px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-justify: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.205);
+    align-self: flex-end;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.795);
+        color: black;
+    }
+}
+    .nav {
+        min-height: 300px;
+        max-width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+ 

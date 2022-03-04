@@ -13,30 +13,49 @@ header {
     position: relative;
     bottom: 15px;
 }
+.dots-container {
+    max-width: 42px;
+    max-height: 42px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    text-align:center;
+}
 .nav {
     list-style-type: none;
     display: flex;
     align-items: center; 
     justify-items: center;
 }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
     header {
         max-width: 320px;
     }
-    .nav {
-        display: none;
+    .head-container {
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
     header {
         max-width: 617px;
     }
-    .fa {
+    .dots-container {
+        display: none;
+    }
+    .closebtn {
         display: none;
     }
 }
 @media screen and (min-width: 1440px) {
-    .fa {
+    .dots-container {
+        display: none;
+    }
+    .closebtn {
         display: none;
     }
 }
